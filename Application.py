@@ -1,7 +1,7 @@
 import os
 from flask import Flask, request
 from flask_cors import CORS
-from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
+from transformers import AutoModelForCausalLM, AutoTokenizer
 from dotenv import load_dotenv
 Application = Flask(__name__)
 CORS(Application)
