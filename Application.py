@@ -30,7 +30,7 @@ def enter_data():
             else:
                 return {"Message": "Text_needed"}
         except Exception as e:
-            return {"Message": e}
+            return {"Message": "e"}
     elif not api:
         return {"Message": "API_Key needed"}
     elif api and api != API:
